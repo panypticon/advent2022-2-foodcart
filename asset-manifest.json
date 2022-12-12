@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/static/js/main.d08529a4.js",
-    "static/js/496.30202b7d.chunk.js": "/static/js/496.30202b7d.chunk.js",
-    "static/media/bg__left.svg": "/static/media/bg__left.a6aaa2bf28de8bf39c559ca322d626f6.svg",
-    "static/media/bg__btm-right.svg": "/static/media/bg__btm-right.6da4d2be6511b0d183fc0e4143b6f0bd.svg",
-    "static/media/bg__top-right.svg": "/static/media/bg__top-right.cbc4580e13d7a9004611ff6ddb860ba3.svg",
-    "index.html": "/index.html",
-    "main.d08529a4.js.map": "/static/js/main.d08529a4.js.map",
-    "496.30202b7d.chunk.js.map": "/static/js/496.30202b7d.chunk.js.map"
+    "main.js": "/advent2022-2-foodcart/static/js/main.3ef686d2.js",
+    "static/js/496.30202b7d.chunk.js": "/advent2022-2-foodcart/static/js/496.30202b7d.chunk.js",
+    "static/media/bg__left.svg": "/advent2022-2-foodcart/static/media/bg__left.a6aaa2bf28de8bf39c559ca322d626f6.svg",
+    "static/media/bg__btm-right.svg": "/advent2022-2-foodcart/static/media/bg__btm-right.6da4d2be6511b0d183fc0e4143b6f0bd.svg",
+    "static/media/bg__top-right.svg": "/advent2022-2-foodcart/static/media/bg__top-right.cbc4580e13d7a9004611ff6ddb860ba3.svg",
+    "index.html": "/advent2022-2-foodcart/index.html",
+    "main.3ef686d2.js.map": "/advent2022-2-foodcart/static/js/main.3ef686d2.js.map",
+    "496.30202b7d.chunk.js.map": "/advent2022-2-foodcart/static/js/496.30202b7d.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.d08529a4.js"
+    "static/js/main.3ef686d2.js"
   ]
 }
