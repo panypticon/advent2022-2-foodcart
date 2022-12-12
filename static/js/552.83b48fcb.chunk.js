@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkadvent2022_2_foodcart=self.webpackChunkadvent2022_2_foodcart||[]).push([[552],{552:function(a,e,t){a.exports=t.p+"static/media/plate__ravioli.b59b03fe60ba411bd4c9.png"}}]);

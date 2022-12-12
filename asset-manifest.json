@@ -1,15 +1,29 @@
 {
   "files": {
-    "main.js": "/advent2022-2-foodcart/static/js/main.3ef686d2.js",
+    "main.js": "/advent2022-2-foodcart/static/js/main.26aad09e.js",
+    "static/js/188.8b568537.chunk.js": "/advent2022-2-foodcart/static/js/188.8b568537.chunk.js",
+    "static/js/572.ef5e9578.chunk.js": "/advent2022-2-foodcart/static/js/572.ef5e9578.chunk.js",
+    "static/js/612.5cb345e7.chunk.js": "/advent2022-2-foodcart/static/js/612.5cb345e7.chunk.js",
+    "static/js/552.83b48fcb.chunk.js": "/advent2022-2-foodcart/static/js/552.83b48fcb.chunk.js",
+    "static/js/105.64ac477a.chunk.js": "/advent2022-2-foodcart/static/js/105.64ac477a.chunk.js",
+    "static/js/895.d1500fc6.chunk.js": "/advent2022-2-foodcart/static/js/895.d1500fc6.chunk.js",
+    "static/js/204.0a3e1cdf.chunk.js": "/advent2022-2-foodcart/static/js/204.0a3e1cdf.chunk.js",
     "static/js/496.30202b7d.chunk.js": "/advent2022-2-foodcart/static/js/496.30202b7d.chunk.js",
+    "static/media/plate__chicken-salad.png": "/advent2022-2-foodcart/static/media/plate__chicken-salad.79e3dd16e66cd1b26a05.png",
+    "static/media/plate__salmon-vegetables.png": "/advent2022-2-foodcart/static/media/plate__salmon-vegetables.ae879edfef92f9068c8b.png",
+    "static/media/plate__spaghetti-meat-sauce.png": "/advent2022-2-foodcart/static/media/plate__spaghetti-meat-sauce.754660cf866bd713a048.png",
+    "static/media/plate__french-fries.png": "/advent2022-2-foodcart/static/media/plate__french-fries.796cf98eeaaae51c02ab.png",
+    "static/media/plate__fish-sticks-fries.png": "/advent2022-2-foodcart/static/media/plate__fish-sticks-fries.1007fbc8626870c43ed8.png",
+    "static/media/plate__tortellini.png": "/advent2022-2-foodcart/static/media/plate__tortellini.fab665ef9efe46e8e9b6.png",
+    "static/media/plate__ravioli.png": "/advent2022-2-foodcart/static/media/plate__ravioli.b59b03fe60ba411bd4c9.png",
     "static/media/bg__left.svg": "/advent2022-2-foodcart/static/media/bg__left.a6aaa2bf28de8bf39c559ca322d626f6.svg",
     "static/media/bg__btm-right.svg": "/advent2022-2-foodcart/static/media/bg__btm-right.6da4d2be6511b0d183fc0e4143b6f0bd.svg",
     "static/media/bg__top-right.svg": "/advent2022-2-foodcart/static/media/bg__top-right.cbc4580e13d7a9004611ff6ddb860ba3.svg",
     "index.html": "/advent2022-2-foodcart/index.html",
-    "main.3ef686d2.js.map": "/advent2022-2-foodcart/static/js/main.3ef686d2.js.map",
+    "main.26aad09e.js.map": "/advent2022-2-foodcart/static/js/main.26aad09e.js.map",
     "496.30202b7d.chunk.js.map": "/advent2022-2-foodcart/static/js/496.30202b7d.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.3ef686d2.js"
+    "static/js/main.26aad09e.js"
   ]
 }

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkadvent2022_2_foodcart=self.webpackChunkadvent2022_2_foodcart||[]).push([[895],{895:function(t,a,e){t.exports=e.p+"static/media/plate__spaghetti-meat-sauce.754660cf866bd713a048.png"}}]);

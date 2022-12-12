@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkadvent2022_2_foodcart=self.webpackChunkadvent2022_2_foodcart||[]).push([[612],{612:function(e,a,t){e.exports=t.p+"static/media/plate__french-fries.796cf98eeaaae51c02ab.png"}}]);

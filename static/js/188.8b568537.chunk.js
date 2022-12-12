@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkadvent2022_2_foodcart=self.webpackChunkadvent2022_2_foodcart||[]).push([[188],{188:function(e,a,t){e.exports=t.p+"static/media/plate__chicken-salad.79e3dd16e66cd1b26a05.png"}}]);

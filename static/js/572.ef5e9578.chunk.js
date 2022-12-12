@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkadvent2022_2_foodcart=self.webpackChunkadvent2022_2_foodcart||[]).push([[572],{572:function(e,t,s){e.exports=s.p+"static/media/plate__fish-sticks-fries.1007fbc8626870c43ed8.png"}}]);

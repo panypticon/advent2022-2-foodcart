@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkadvent2022_2_foodcart=self.webpackChunkadvent2022_2_foodcart||[]).push([[105],{105:function(e,a,t){e.exports=t.p+"static/media/plate__salmon-vegetables.ae879edfef92f9068c8b.png"}}]);

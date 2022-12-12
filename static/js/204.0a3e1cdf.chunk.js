@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkadvent2022_2_foodcart=self.webpackChunkadvent2022_2_foodcart||[]).push([[204],{204:function(e,t,a){e.exports=a.p+"static/media/plate__tortellini.fab665ef9efe46e8e9b6.png"}}]);
