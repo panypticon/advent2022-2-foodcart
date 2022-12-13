@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/advent2022-2-foodcart/static/js/main.26aad09e.js",
+    "main.js": "/advent2022-2-foodcart/static/js/main.d4777cf1.js",
     "static/js/188.8b568537.chunk.js": "/advent2022-2-foodcart/static/js/188.8b568537.chunk.js",
     "static/js/572.ef5e9578.chunk.js": "/advent2022-2-foodcart/static/js/572.ef5e9578.chunk.js",
     "static/js/612.5cb345e7.chunk.js": "/advent2022-2-foodcart/static/js/612.5cb345e7.chunk.js",
@@ -20,10 +20,12 @@
     "static/media/bg__btm-right.svg": "/advent2022-2-foodcart/static/media/bg__btm-right.6da4d2be6511b0d183fc0e4143b6f0bd.svg",
     "static/media/bg__top-right.svg": "/advent2022-2-foodcart/static/media/bg__top-right.cbc4580e13d7a9004611ff6ddb860ba3.svg",
     "index.html": "/advent2022-2-foodcart/index.html",
-    "main.26aad09e.js.map": "/advent2022-2-foodcart/static/js/main.26aad09e.js.map",
+    "static/media/chevron.svg": "/advent2022-2-foodcart/static/media/chevron.f09ad78c70c23903872b15a5751f0295.svg",
+    "static/media/check.svg": "/advent2022-2-foodcart/static/media/check.808cd56442374a9032e793d86bbb4912.svg",
+    "main.d4777cf1.js.map": "/advent2022-2-foodcart/static/js/main.d4777cf1.js.map",
     "496.30202b7d.chunk.js.map": "/advent2022-2-foodcart/static/js/496.30202b7d.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.26aad09e.js"
+    "static/js/main.d4777cf1.js"
   ]
 }
