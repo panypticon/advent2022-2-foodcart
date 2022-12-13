@@ -26,16 +26,20 @@ export const cartSlice = createSlice({
                 name,
                 price,
                 imgSrc,
-                amount: !state.contents[id] ? 1 : state.contents[id].amount + 1
+                amount: 1
             };
         },
-        remove: () => {},
-        increment: () => {},
-        decrement: () => {}
+        increment: (state, action: PayloadAction<string>) => {
+            state.contents[action.payload].amount++;
+        },
+        decrement: (state, action: PayloadAction<string>) => {
+            if (state.contents[action.payload].amount === 1) delete state.contents[action.payload];
+            else state.contents[action.payload].amount--;
+        }
     }
 });
 
-export const { add, remove, increment, decrement } = cartSlice.actions;
+export const { add, increment, decrement } = cartSlice.actions;
 
 export const selectCart = (state: RootState) => state.cart;
 
