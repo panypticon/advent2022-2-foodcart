@@ -17,7 +17,7 @@ const StyledCard = styled.section`
         background-color: rgba(255, 255, 255, 0.75);
         backdrop-filter: blur(1.5rem);
         border-radius: 2.5rem 2.5rem 0 0;
-        z-index: 10;
+        z-index: 20;
     }
 `;
 
