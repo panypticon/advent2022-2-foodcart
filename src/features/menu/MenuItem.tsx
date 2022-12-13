@@ -1,14 +1,17 @@
 import { useState, useEffect } from 'react';
 import styled from 'styled-components';
 
-import { add } from '../cart/CartSlice';
-import { useAppDispatch } from '../../app/hooks';
+import { add, selectCart } from '../cart/CartSlice';
+import { useAppDispatch, useAppSelector } from '../../app/hooks';
+
+import check from '../../assets/check.svg';
 
 const StyledMenuItem = styled.li`
     position: relative;
     z-index: 0;
     display: flex;
     gap: 2.5rem;
+    list-style: none;
 
     .MenuItem {
         &__background {
@@ -45,14 +48,25 @@ const StyledMenuItem = styled.li`
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                gap: 0.625rem;
                 padding: 0 2.5rem;
-                align-self: flex-start;
                 cursor: pointer;
+                width: 90%;
+
+                &:disabled {
+                    background-color: #000;
+
+                    img {
+                        width: 1.6rem;
+                        margin: 0;
+                        align-self: unset;
+                    }
+                }
             }
         }
 
         &__price {
-            font-size: 3.2rem;
+            font-size: 2.4rem;
             font-weight: 700;
         }
     }
@@ -96,6 +110,9 @@ interface props {
 const MenuItem = ({ id, name, price, img }: props) => {
     const [imgSrc, setImgSrc] = useState('');
 
+    const { contents } = useAppSelector(selectCart);
+    const isDisabled = contents.hasOwnProperty(id);
+
     useEffect(() => {
         (async () => {
             const { default: imported } = await import(`../../assets/${img}.png`);
@@ -111,8 +128,17 @@ const MenuItem = ({ id, name, price, img }: props) => {
             <img src={imgSrc} alt={name} />
             <div className="MenuItem__data">
                 <h3>{name}</h3>
-                <p className="MenuItem__price">{price.toFixed(2)} €</p>
-                <button onClick={() => dispatch(add({ id, name, price, imgSrc }))}>Add to Cart</button>
+                <p className="MenuItem__price">{price.toFixed(2)}€</p>
+                <button disabled={isDisabled} onClick={() => dispatch(add({ id, name, price, imgSrc }))}>
+                    {isDisabled ? (
+                        <>
+                            <img src={check} alt="Check" />
+                            In Cart
+                        </>
+                    ) : (
+                        <>Add to Cart</>
+                    )}
+                </button>
             </div>
         </StyledMenuItem>
     );
