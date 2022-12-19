@@ -1,4 +1,4 @@
-# Advent of CSS/JS 2022 – 1: Food Cart
+# Advent of CSS/JS 2022 – 2: Food Cart
 
 A simple web app allowing you to select and manage items from a food menu. Done with TypeScript, React, Redux, and Styled Components.
 
